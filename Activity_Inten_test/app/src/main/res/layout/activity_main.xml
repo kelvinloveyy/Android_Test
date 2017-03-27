@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget42"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+    <EditText android:id="@+id/monitor"
+        android:layout_width="168dp"
+        android:layout_height="106px"
+        android:textSize="18sp"
+        android:text="The Williams live __ 188 Fleet Street"
+        android:layout_weight="0.10">
+    </EditText>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+    android:text="on"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/a" />
+    <RadioButton
+        android:text="at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b" />
+    <RadioButton
+        android:text="of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c" />
+    <RadioButton
+        android:text="in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d" />
+    </RadioGroup>
+
+    <Button
+        android:text="确定"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sure" />
+
+    <Button
+        android:text="取消"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel" />
+</LinearLayout>
+
+
