@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sub_Menu</string>
+    <string name="local">本地</string>
+    <string name="internet">网络</string>
+</resources>
