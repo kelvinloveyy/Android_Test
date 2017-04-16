@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="19"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="13822720586833"
+    token="-5324573837386673017"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="72" />
+    <task
+        name="instant-run-dex"
+        duration="398" />
+    <task
+        name="instant-run-transform"
+        duration="9" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="13754224693644"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="13822720586833"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

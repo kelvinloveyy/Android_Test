@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\sdk\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_4d27bbd0828d2b50337b7fcfff07d5e308ba125c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="29e65cd5e16f9b675ac8ec5ff4b50996f135853e">
+        <dex dex="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\pre-dexed\debug\instant-run_c9828f75d90e190c8769ae34316ef499aef32677.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75ae5a86e197d26350cd0d8923660c21e0a6735e">
+        <dex dex="F:\android02180021\08 Dialogue\DatePickerDialogExample\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8d57e2285b1ea34b97a4bbd6fdba18d71c600e99.jar" />
+    </item>
+
+</items>
