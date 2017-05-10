@@ -1,6 +1,6 @@
 package com.example.administrator.mycalculator;
 
-import java.math.BigDecimal;
+import java.math.BigDecimal;//用来对超过16位有效位的数进行精确的运算
 
 /**
  * Created by Administrator on 2017/5/4.
@@ -36,7 +36,8 @@ public enum Arithmetic {
                 break;
 
         }
-        return number.stripTrailingZeros().toPlainString();
+        return number.stripTrailingZeros().toPlainString(); //移除所有尾部零,并以String形式输出
+        //如果是直接toString 就以科学计数输出
 
     }
     }
