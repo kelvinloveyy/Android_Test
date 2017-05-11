@@ -107,9 +107,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(drg_flag == true) {
                     drg_flag = false;
+                    Button btn = (Button)v;
+                    btn.setText("RAD");
                     show.setText("RAD模式，既输入120为120");
                 } else {
                     drg_flag = true;
+                    Button btn = (Button)v;
+                    btn.setText("DEG");
                     show.setText("DEG模式，既输入120为120度");
                 }
 
